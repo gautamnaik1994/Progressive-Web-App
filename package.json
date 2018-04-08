@@ -1,14 +1,17 @@
 {
-  "name": "Progressive Web App",
+  "name": "ProgressiveWebApp",
   "version": "1.0.0",
   "description": "Progressive Web App",
   "main": "index.js",
   "scripts": {
-    "start": "cd public && python -m SimpleHTTPServer 8000"
+    "start": "http-server -c-1"
   },
   "keywords": [
     "pwa"
   ],
   "author": "Gautam Naik",
   "license": "ISC",
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
 }
